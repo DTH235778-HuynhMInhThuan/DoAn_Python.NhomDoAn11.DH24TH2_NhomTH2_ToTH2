@@ -1,9 +1,7 @@
-# File: HOADON.py (Đã sửa lỗi canh lề)
+
 import tkinter as tk
 from tkinter import ttk, messagebox
 from db import connect_db
-# Giả sử bạn muốn dùng DateEntry, hãy import nó
-# from tkcalendar import DateEntry 
 
 def tao_frame_hoadon(root, show_home):
     frame_hd = tk.Frame(root)
@@ -158,8 +156,7 @@ def tao_frame_hoadon(root, show_home):
             entry_tongtien.delete(0, tk.END)
             entry_tongtien.insert(0, values[5])
 
-    # ====== GIAO DIỆN (ĐÃ SỬA DÙNG PACK) ======
-    
+    # ====== GIAO DIỆN ======
     # --- Khung form nhập liệu ---
     form_frame = tk.Frame(frame_hd)
     form_frame.pack(pady=20) # <-- Dùng pack để canh giữa

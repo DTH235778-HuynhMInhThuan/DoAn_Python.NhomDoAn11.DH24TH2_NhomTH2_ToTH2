@@ -1,4 +1,4 @@
-# File: KHACHHANG.py (Đã sửa lỗi canh lề)
+
 import tkinter as tk
 from tkinter import ttk, messagebox
 from db import connect_db

@@ -1,4 +1,4 @@
-# File: TONKHO.py
+
 import tkinter as tk
 from tkinter import ttk, messagebox
 from db import connect_db

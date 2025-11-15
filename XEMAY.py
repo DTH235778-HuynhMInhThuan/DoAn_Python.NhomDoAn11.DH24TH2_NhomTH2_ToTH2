@@ -7,10 +7,6 @@ def tao_frame_xe(root, show_home):
     frame_xe = tk.Frame(root)
     frame_xe.pack(fill="both", expand=True)  # full màn hình
 
-    # =====================================================================
-    # ====== TẤT CẢ CÁC HÀM (ĐÃ DI CHUYỂN LÊN ĐẦU ĐỂ SỬA LỖI) ======
-    # =====================================================================
-
     def cap_nhat_xe_goi_y(event):
         hang = combo_hangxe.get()
         combo_tenxe["values"] = list(xe_goi_y.get(hang, {}).keys())
